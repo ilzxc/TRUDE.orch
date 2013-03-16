@@ -64,15 +64,15 @@
 
 \begin_body
 
+\begin_layout Section
+STILNESZ
+\end_layout
+
 \begin_layout Standard
 \begin_inset Float table
 wide false
 sideways false
 status collapsed
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -747,7 +747,7 @@ motion
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $B\natural6+50c$
+\begin_inset Formula $E\natural7-17c$
 \end_inset
 
 
@@ -759,52 +759,11 @@ motion
 \begin_inset Text
 
 \begin_layout Plain Layout
--40
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-tenuto, quasi-regular repetition (half-second-ish attack w/ second decay)
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $A\sharp6-11c$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--34 
+-50 
 \begin_inset Formula $\rightarrow$
 \end_inset
 
- -50
+ -39
 \end_layout
 
 \end_inset
@@ -822,7 +781,7 @@ tenuto, quasi-regular repetition (half-second-ish attack w/ second decay)
 \begin_inset Text
 
 \begin_layout Plain Layout
-almost 2 seconds after quiet attacks
+quiet intermittent pointillism
 \end_layout
 
 \end_inset
@@ -833,7 +792,7 @@ almost 2 seconds after quiet attacks
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $G\natural6+40c$
+\begin_inset Formula $A\natural6-27c$
 \end_inset
 
 
@@ -845,11 +804,7 @@ almost 2 seconds after quiet attacks
 \begin_inset Text
 
 \begin_layout Plain Layout
--37 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
- -55
+-52
 \end_layout
 
 \end_inset
@@ -867,7 +822,7 @@ almost 2 seconds after quiet attacks
 \begin_inset Text
 
 \begin_layout Plain Layout
-like chord 1, but phasing with it, slightly
+attack-decay onle
 \end_layout
 
 \end_inset
@@ -878,7 +833,7 @@ like chord 1, but phasing with it, slightly
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $G\natural6-16c$
+\begin_inset Formula $F\sharp6+42c$
 \end_inset
 
 
@@ -890,11 +845,7 @@ like chord 1, but phasing with it, slightly
 \begin_inset Text
 
 \begin_layout Plain Layout
--37 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
- -55
+-35
 \end_layout
 
 \end_inset
@@ -912,7 +863,7 @@ like chord 1, but phasing with it, slightly
 \begin_inset Text
 
 \begin_layout Plain Layout
-louder & faster, masking close-tones
+slightly < 1s accented
 \end_layout
 
 \end_inset
@@ -923,7 +874,7 @@ louder & faster, masking close-tones
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $F\natural6+25c$
+\begin_inset Formula $F\sharp6-27$
 \end_inset
 
 
@@ -935,11 +886,7 @@ louder & faster, masking close-tones
 \begin_inset Text
 
 \begin_layout Plain Layout
--37 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
- -55
+-43
 \end_layout
 
 \end_inset
@@ -957,7 +904,7 @@ louder & faster, masking close-tones
 \begin_inset Text
 
 \begin_layout Plain Layout
-quieter, 2.5 second period, subtle accents
+attack-decay only
 \end_layout
 
 \end_inset
@@ -968,9 +915,7 @@ quieter, 2.5 second period, subtle accents
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
-\begin_inset Formula $D\sharp6-19c$
+\begin_inset Formula $F\natural6-19c$
 \end_inset
 
 
@@ -982,11 +927,7 @@ quieter, 2.5 second period, subtle accents
 \begin_inset Text
 
 \begin_layout Plain Layout
--40 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
- -55
+-35
 \end_layout
 
 \end_inset
@@ -1004,7 +945,7 @@ quieter, 2.5 second period, subtle accents
 \begin_inset Text
 
 \begin_layout Plain Layout
-wider-band than spectral pitch (noise) / similar to 2-second period
+bisbiglidando
 \end_layout
 
 \end_inset
@@ -1015,7 +956,7 @@ wider-band than spectral pitch (noise) / similar to 2-second period
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $B\natural5$
+\begin_inset Formula $D\natural6-20c$
 \end_inset
 
 
@@ -1027,11 +968,7 @@ wider-band than spectral pitch (noise) / similar to 2-second period
 \begin_inset Text
 
 \begin_layout Plain Layout
--49 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
- -52
+-37
 \end_layout
 
 \end_inset
@@ -1049,7 +986,7 @@ wider-band than spectral pitch (noise) / similar to 2-second period
 \begin_inset Text
 
 \begin_layout Plain Layout
-vibrato (~ + semitone)
+~ 1s accented
 \end_layout
 
 \end_inset
@@ -1060,7 +997,7 @@ vibrato (~ + semitone)
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $G\natural5+50c$
+\begin_inset Formula $A\flat5\rightarrow A\natural5$
 \end_inset
 
 
@@ -1072,11 +1009,7 @@ vibrato (~ + semitone)
 \begin_inset Text
 
 \begin_layout Plain Layout
--32 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
- -38
+-43
 \end_layout
 
 \end_inset
@@ -1094,7 +1027,7 @@ vibrato (~ + semitone)
 \begin_inset Text
 
 \begin_layout Plain Layout
-louder, as evenly as possible
+quiet and still
 \end_layout
 
 \end_inset
@@ -1105,7 +1038,7 @@ louder, as evenly as possible
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $D\sharp5-8c$
+\begin_inset Formula $F\sharp5+41c$
 \end_inset
 
 
@@ -1117,11 +1050,7 @@ louder, as evenly as possible
 \begin_inset Text
 
 \begin_layout Plain Layout
--30 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
- -34
+-50
 \end_layout
 
 \end_inset
@@ -1139,7 +1068,7 @@ louder, as evenly as possible
 \begin_inset Text
 
 \begin_layout Plain Layout
-second-loudest, reverse-envelope
+slightly < 1s, quietest
 \end_layout
 
 \end_inset
@@ -1150,7 +1079,7 @@ second-loudest, reverse-envelope
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $C\natural5-31c$
+\begin_inset Formula $A\sharp4-32c$
 \end_inset
 
 
@@ -1162,7 +1091,7 @@ second-loudest, reverse-envelope
 \begin_inset Text
 
 \begin_layout Plain Layout
--31
+-29
 \end_layout
 
 \end_inset
@@ -1180,7 +1109,7 @@ second-loudest, reverse-envelope
 \begin_inset Text
 
 \begin_layout Plain Layout
-mostly even, slightly tremolo
+graduated continuant
 \end_layout
 
 \end_inset
@@ -1191,7 +1120,7 @@ mostly even, slightly tremolo
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $G\natural4+43c$
+\begin_inset Formula $G\natural4-42c$
 \end_inset
 
 
@@ -1203,11 +1132,7 @@ mostly even, slightly tremolo
 \begin_inset Text
 
 \begin_layout Plain Layout
--37 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
- -50
+-27
 \end_layout
 
 \end_inset
@@ -1225,7 +1150,48 @@ mostly even, slightly tremolo
 \begin_inset Text
 
 \begin_layout Plain Layout
-extremely quiet, hints of accented shythm
+graduated continuant
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $F\natural4+4c$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-45
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+very sparse w/ minimal resonance
 \end_layout
 
 \end_inset
@@ -1236,10 +1202,10 @@ extremely quiet, hints of accented shythm
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $G\sharp3$
+\begin_inset Formula $G\natural0/D\natural1/F\natural1$
 \end_inset
 
-
+ 
 \end_layout
 
 \end_inset
@@ -1248,7 +1214,7 @@ extremely quiet, hints of accented shythm
 \begin_inset Text
 
 \begin_layout Plain Layout
--28
+-19
 \end_layout
 
 \end_inset
@@ -1266,7 +1232,7 @@ extremely quiet, hints of accented shythm
 \begin_inset Text
 
 \begin_layout Plain Layout
-loudest, wide-band (vibrato + non-vibrato)
+large-scale waves
 \end_layout
 
 \end_inset
@@ -1304,7 +1270,7 @@ stilnesz.wav // chord02
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="13" columns="4">
+<lyxtabular version="3" rows="12" columns="4">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
@@ -1353,7 +1319,7 @@ motion
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $B\natural6+50c$
+\begin_inset Formula $E\flat7-50c$
 \end_inset
 
 
@@ -1365,7 +1331,7 @@ motion
 \begin_inset Text
 
 \begin_layout Plain Layout
--40
+-50
 \end_layout
 
 \end_inset
@@ -1383,7 +1349,7 @@ motion
 \begin_inset Text
 
 \begin_layout Plain Layout
-tenuto, quasi-regular repetition (half-second-ish attack w/ second decay)
+staccato pulse
 \end_layout
 
 \end_inset
@@ -1394,7 +1360,7 @@ tenuto, quasi-regular repetition (half-second-ish attack w/ second decay)
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $A\sharp6-11c$
+\begin_inset Formula $D\sharp7-27c$
 \end_inset
 
 
@@ -1406,11 +1372,52 @@ tenuto, quasi-regular repetition (half-second-ish attack w/ second decay)
 \begin_inset Text
 
 \begin_layout Plain Layout
--34 
+-45
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+attack only
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $C\sharp7-19c$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-44 
 \begin_inset Formula $\rightarrow$
 \end_inset
 
- -50
+ -39
 \end_layout
 
 \end_inset
@@ -1428,7 +1435,7 @@ tenuto, quasi-regular repetition (half-second-ish attack w/ second decay)
 \begin_inset Text
 
 \begin_layout Plain Layout
-almost 2 seconds after quiet attacks
+poco a poco cresc
 \end_layout
 
 \end_inset
@@ -1439,7 +1446,7 @@ almost 2 seconds after quiet attacks
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $G\natural6+40c$
+\begin_inset Formula $G\natural6+31c$
 \end_inset
 
 
@@ -1451,11 +1458,7 @@ almost 2 seconds after quiet attacks
 \begin_inset Text
 
 \begin_layout Plain Layout
--37 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
- -55
+-44
 \end_layout
 
 \end_inset
@@ -1473,7 +1476,7 @@ almost 2 seconds after quiet attacks
 \begin_inset Text
 
 \begin_layout Plain Layout
-like chord 1, but phasing with it, slightly
+quasi-imperceptible pulse
 \end_layout
 
 \end_inset
@@ -1484,7 +1487,7 @@ like chord 1, but phasing with it, slightly
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $G\natural6-16c$
+\begin_inset Formula $D\sharp6+43$
 \end_inset
 
 
@@ -1496,11 +1499,7 @@ like chord 1, but phasing with it, slightly
 \begin_inset Text
 
 \begin_layout Plain Layout
--37 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
- -55
+-38
 \end_layout
 
 \end_inset
@@ -1518,7 +1517,7 @@ like chord 1, but phasing with it, slightly
 \begin_inset Text
 
 \begin_layout Plain Layout
-louder & faster, masking close-tones
+~ 1.5 s pulsation
 \end_layout
 
 \end_inset
@@ -1529,7 +1528,7 @@ louder & faster, masking close-tones
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $F\natural6+25c$
+\begin_inset Formula $D\sharp6-28c$
 \end_inset
 
 
@@ -1541,11 +1540,7 @@ louder & faster, masking close-tones
 \begin_inset Text
 
 \begin_layout Plain Layout
--37 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
- -55
+-37
 \end_layout
 
 \end_inset
@@ -1563,7 +1558,7 @@ louder & faster, masking close-tones
 \begin_inset Text
 
 \begin_layout Plain Layout
-quieter, 2.5 second period, subtle accents
+attack only
 \end_layout
 
 \end_inset
@@ -1574,9 +1569,7 @@ quieter, 2.5 second period, subtle accents
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
-\begin_inset Formula $D\sharp6-19c$
+\begin_inset Formula $B\natural5-19c$
 \end_inset
 
 
@@ -1588,11 +1581,7 @@ quieter, 2.5 second period, subtle accents
 \begin_inset Text
 
 \begin_layout Plain Layout
--40 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
- -55
+-30
 \end_layout
 
 \end_inset
@@ -1610,7 +1599,7 @@ quieter, 2.5 second period, subtle accents
 \begin_inset Text
 
 \begin_layout Plain Layout
-wider-band than spectral pitch (noise) / similar to 2-second period
+pulsation (similar to others)
 \end_layout
 
 \end_inset
@@ -1621,7 +1610,7 @@ wider-band than spectral pitch (noise) / similar to 2-second period
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $B\natural5$
+\begin_inset Formula $F\sharp5-45c$
 \end_inset
 
 
@@ -1633,11 +1622,7 @@ wider-band than spectral pitch (noise) / similar to 2-second period
 \begin_inset Text
 
 \begin_layout Plain Layout
--49 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
- -52
+-35
 \end_layout
 
 \end_inset
@@ -1655,7 +1640,7 @@ wider-band than spectral pitch (noise) / similar to 2-second period
 \begin_inset Text
 
 \begin_layout Plain Layout
-vibrato (~ + semitone)
+mostly static
 \end_layout
 
 \end_inset
@@ -1666,7 +1651,7 @@ vibrato (~ + semitone)
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $G\natural5+50c$
+\begin_inset Formula $E\natural5$
 \end_inset
 
 
@@ -1678,11 +1663,7 @@ vibrato (~ + semitone)
 \begin_inset Text
 
 \begin_layout Plain Layout
--32 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
- -38
+-48
 \end_layout
 
 \end_inset
@@ -1700,7 +1681,7 @@ vibrato (~ + semitone)
 \begin_inset Text
 
 \begin_layout Plain Layout
-louder, as evenly as possible
+molto vibrato
 \end_layout
 
 \end_inset
@@ -1711,7 +1692,7 @@ louder, as evenly as possible
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $D\sharp5-8c$
+\begin_inset Formula $B\natural4$
 \end_inset
 
 
@@ -1723,52 +1704,7 @@ louder, as evenly as possible
 \begin_inset Text
 
 \begin_layout Plain Layout
--30 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
- -34
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-second-loudest, reverse-envelope
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $C\natural5-31c$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--31
+-50
 \end_layout
 
 \end_inset
@@ -1786,52 +1722,7 @@ second-loudest, reverse-envelope
 \begin_inset Text
 
 \begin_layout Plain Layout
-mostly even, slightly tremolo
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $G\natural4+43c$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--37 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
- -50
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-extremely quiet, hints of accented shythm
+post-attack ghost-hit
 \end_layout
 
 \end_inset
@@ -1842,7 +1733,7 @@ extremely quiet, hints of accented shythm
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $G\sharp3$
+\begin_inset Formula $E\natural4-34c$
 \end_inset
 
 
@@ -1854,7 +1745,7 @@ extremely quiet, hints of accented shythm
 \begin_inset Text
 
 \begin_layout Plain Layout
--28
+-29
 \end_layout
 
 \end_inset
@@ -1872,7 +1763,7 @@ extremely quiet, hints of accented shythm
 \begin_inset Text
 
 \begin_layout Plain Layout
-loudest, wide-band (vibrato + non-vibrato)
+graduated continuum
 \end_layout
 
 \end_inset
@@ -1888,6 +1779,10 @@ loudest, wide-band (vibrato + non-vibrato)
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+BASSHARM
 \end_layout
 
 \end_body
