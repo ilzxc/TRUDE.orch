@@ -1,12 +1,12 @@
 TRUDE.orch
 ==========
 
-TRUDE (Finale 2012) Orchestra Score Work
+TRUDE Orchestra Score Work
 
 //finale2012 :: current version of the scores;
 //pdf_dump   :: score & parts;
 //spectra    :: images & text files with partial aggregates;
-//code       :: genetic algo for aggregate generation (from shiffman & sethares);
+//code       :: genetic algo for aggregate generation (via shiffman & sethares);
 
 
 _i
