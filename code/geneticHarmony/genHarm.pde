@@ -2,21 +2,22 @@ class genHarm {
   
   private   float[]   freqs; // spectral aggregate :: frequencies
   private   float[]   amps;  // spectral aggregate :: amplitudes
+  private   PVector   freqRange;
   protected float     fitness;
-  private   boolean   midiMode;
   
   //---------------------------------------------------------------------------
   // CONSTRUCTOR: -----------------------------------------------------------//
   //---------------------------------------------------------------------------
-  genHarm(int numPartials, boolean midi, boolean instantiate) {
+  genHarm(int numPartials, float lowNote, float highNote, boolean instantiate) {
     // initialization:
     freqs = new float[numPartials];
     amps  = new float[numPartials];
-    midiMode = midi;
+    
+    freqRange = new PVector(lowNote, highNote);
     
     if (instantiate) {
       for (int i = 0; i < numPartials; i++) {
-        freqs[i] = (midi) ? mtof(random(24, 96)) : random(50, 4000);
+        freqs[i] = random(freqRange.x, freqRange.y);
         amps[i]  = random(1);
       }
     }
@@ -50,7 +51,7 @@ class genHarm {
   // CROSSOVER: -------------------------------------------------------------//
   //---------------------------------------------------------------------------
   public genHarm crossover(genHarm partner) {
-    genHarm child = new genHarm(freqs.length, midiMode, false);
+    genHarm child = new genHarm(freqs.length, freqRange.x, freqRange.y, false);
     int midpoint = int(random(freqs.length));
     for (int i = 0; i < freqs.length; i++) {
       if (i > midpoint) {
@@ -70,7 +71,7 @@ class genHarm {
   public void mutate(float mutationRate) {
     for (int i = 0; i < freqs.length; i++) {
       if (random(1) < mutationRate) {
-        freqs[i] = (midiMode) ? mtof(random(24, 96)) : random(50, 4000);
+        freqs[i] = random(freqRange.x, freqRange.y);
         if (random(1) < 0.5) {
           amps[i] = random(1);
         }
@@ -101,12 +102,7 @@ class genHarm {
   
   //---------------------------------------------------------------------------
   // PRIVATE METHODS: -------------------------------------------------------//
-  //---------------------------------------------------------------------------
-  // MTOF / midi to freq ----------------------------------------------------//
-  //---------------------------------------------------------------------------
-  private float mtof(float midi) {  
-    return (pow( 2, ((midi - 69) / 12) ) * 440.0);
-  }
+  
   
   //---------------------------------------------------------------------------
   // FTOM / freq to midi ----------------------------------------------------//

@@ -1,14 +1,21 @@
 genHarm[] armonie = new genHarm[100];
 float mutationRate = 0.01;
 
+int generation = 0;
+int runCounter = 0;
+int numSolutions = 10;
+
 float[] sourceFreq;
 float[] sourceAmp;
 float   targetRoughness;
 int     maxPool;
 boolean done = false;
-String  fileName = "RANDOM06";
+String  fnBase = "orchPres";
+String  fileName = fnBase + "_" + runCounter;
 
-int generation = 0;
+float lowFreq = mtof(0); 
+float highFreq = mtof(92);
+
 
 
 //---------------------------------------------------------------------------
@@ -17,7 +24,7 @@ int generation = 0;
 void setup() {
   
   // define sources:
-  sourceFreq = new float[11];
+  sourceFreq = new float[(int)(random(6, 20))];
   sourceAmp  = new float[sourceFreq.length];
   for (int i = 0; i < sourceFreq.length; i++) {
     sourceFreq[i] = random(50, 4000);
@@ -29,14 +36,15 @@ void setup() {
     sourceAmp[i] = sourceAmp[i] * multiplier;
   }
   
-  PrintWriter output;
-    
-  output = createWriter(fileName + "_src.txt");
-  for (int i = 0; i < sourceFreq.length; i++) {
-    output.println(i + ", " + sourceFreq[i] + " " + sourceAmp[i] + ";");
+  {
+    PrintWriter output;
+    output = createWriter(fileName + "_src.txt");
+    for (int i = 0; i < sourceFreq.length; i++) {
+      output.println(i + ", " + sourceFreq[i] + " " + sourceAmp[i] + ";");
+    }
+    output.flush();
+    output.close();
   }
-  output.flush();
-  output.close();
   
   if (sourceFreq.length != sourceAmp.length) {
     println("Error: frequency & amplitude arrays mismatch.");
@@ -44,12 +52,11 @@ void setup() {
   }
   
   int partials = sourceFreq.length;
-  boolean useMidi = false;
   maxPool = 5000;
   
   // instantiate armonies:
   for (int i = 0; i < armonie.length; i++) {
-    armonie[i] = new genHarm(partials, useMidi, true);
+    armonie[i] = new genHarm(partials, lowFreq, highFreq, true);
   }
   
   targetRoughness = armonie[0].Df(sourceFreq, sourceAmp);
@@ -72,7 +79,16 @@ void draw() {
   ArrayList<genHarm> matingPool = new ArrayList<genHarm>();
   
   int[] scaledFitnesses = scaledFitnesses();
-  if (done) { exit(); }
+  if (done) { 
+    runCounter++;
+    if (runCounter == numSolutions) {
+      exit();
+    } else {
+      fileName = (fnBase + "_" + runCounter);
+      setup();
+      done = false;
+    }
+  }
   
   for (int i = 0; i < armonie.length; i++) {
     for (int j = 0; j < scaledFitnesses[i]; j++) {
@@ -124,4 +140,11 @@ int[] scaledFitnesses() {
   
   
   return result;
+}
+
+//---------------------------------------------------------------------------
+// MTOF / midi to freq ----------------------------------------------------//
+//---------------------------------------------------------------------------
+private float mtof(float midi) {  
+  return (pow( 2, ((midi - 69) / 12) ) * 440.0);
 }
