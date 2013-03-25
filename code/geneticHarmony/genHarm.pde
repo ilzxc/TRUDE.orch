@@ -91,13 +91,14 @@ class genHarm {
     }
     output.flush();
     output.close();
-    
+    /*
     output = createWriter(filename + "_midi.txt");
     for (int i = 0; i < freqs.length; i++) {
       output.println(i+ ", " + ftom(freqs[i]) + " " + amps[i] + ";");
     }
     output.flush();
     output.close();
+    */
   }
   
   //---------------------------------------------------------------------------

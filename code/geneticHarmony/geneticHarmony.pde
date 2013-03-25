@@ -5,16 +5,17 @@ int generation = 0;
 int runCounter = 0;
 int numSolutions = 10;
 
-float[] sourceFreq;
-float[] sourceAmp;
+// chord00:
+float[] sourceFreq = { 1864.655029, 622.253967, 391.995422, 1244.507935, 466.163757, 783.990845, 415.304688, 49., 3951.066406, 3135.963379, 3322.4375, 2793.825928, 2489.015869, 1975.533203, 1046.502319, 783.990845 };
+float[] sourceAmp =  { 0.3,         0.3,        0.3,        0.5,         1.,         0.5,        0.2,        0.7, 0.4,         0.4,         0.4,       0.2,         0.2,         0.6,         0.6,         0.3        };
 float   targetRoughness;
 int     maxPool;
 boolean done = false;
-String  fnBase = "orchPres";
+String  fnBase = "chord00whole";
 String  fileName = fnBase + "_" + runCounter;
 
-float lowFreq = mtof(0); 
-float highFreq = mtof(92);
+float lowFreq = mtof(60 - (12 * 5)); 
+float highFreq = mtof(60 + (12 * 3));
 
 
 
@@ -24,6 +25,7 @@ float highFreq = mtof(92);
 void setup() {
   
   // define sources:
+  /*
   sourceFreq = new float[(int)(random(6, 20))];
   sourceAmp  = new float[sourceFreq.length];
   for (int i = 0; i < sourceFreq.length; i++) {
@@ -35,7 +37,8 @@ void setup() {
   for (int i = 0; i < sourceAmp.length; i++) {
     sourceAmp[i] = sourceAmp[i] * multiplier;
   }
-  
+  */
+  /* 
   {
     PrintWriter output;
     output = createWriter(fileName + "_src.txt");
@@ -45,6 +48,7 @@ void setup() {
     output.flush();
     output.close();
   }
+  */
   
   if (sourceFreq.length != sourceAmp.length) {
     println("Error: frequency & amplitude arrays mismatch.");
@@ -148,3 +152,7 @@ int[] scaledFitnesses() {
 private float mtof(float midi) {  
   return (pow( 2, ((midi - 69) / 12) ) * 440.0);
 }
+
+
+
+
